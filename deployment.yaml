@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: react-app
-          image: rangadm/salary_calculator:6
+          image: rangadm/salary_calculator:fb7f3585cb14d487808132e85cfceeb4feab76f1
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
